@@ -1,0 +1,13 @@
+#include <FileCtrl.hpp>
+#include <Registry.hpp>
+#include <IniFiles.hpp>
+#include <SysUtils.hpp>
+#include <ComCtrls.hpp>
+#include <Dialogs.hpp>
+#include <System.hpp>
+#include <Windows.hpp>
+#include <ComObj.hpp>
+#include <CheckLst.hpp>
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
