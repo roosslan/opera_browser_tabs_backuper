@@ -4,10 +4,10 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="apera_mar_in.exe"/>
-    <OBJFILES value="apera_mar_in.obj test_mht.obj unit_list.obj save_mht.obj session_parser.obj"/>
+    <OBJFILES value="src\apera_mar_in.obj src\test_mht.obj src\unit_list.obj src\save_mht.obj src\session_parser.obj"/>
     <RESFILES value="apera_mar_in.res"/>
     <DEFFILE value=""/>
-    <RESDEPEN value="$(RESFILES) test_mht.dfm unit_list.dfm"/>
+    <RESDEPEN value="$(RESFILES) src\test_mht.dfm src\unit_list.dfm"/>
     <LIBFILES value=""/>
     <LIBRARIES value=""/>
     <SPARELIBS value="vcl.lib rtl.lib vclx.lib"/>
@@ -17,7 +17,7 @@
       dbxcds.bpi dss.bpi ibxpress.bpi dsnapcon.bpi vclie.bpi xmlrtl.bpi 
       inetdbbde.bpi inetdbxpress.bpi nmfast.bpi dclocx.bpi qrpt.bpi soaprtl.bpi 
       teeui.bpi teedb.bpi tee.bpi teeqr.bpi webdsnap.bpi websnap.bpi XML3.bpi"/>
-    <PATHCPP value=".;"/>
+    <PATHCPP value=".;src"/>
     <PATHPAS value=".;"/>
     <PATHRC value=".;"/>
     <PATHASM value=".;"/>
@@ -26,9 +26,9 @@
     <LINKER value="ilink32"/>
     <USERDEFINES value="_DEBUG"/>
     <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
-    <MAINSOURCE value="apera_mar_in.cpp"/>
-    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
-    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <MAINSOURCE value="src\apera_mar_in.cpp"/>
+    <INCLUDEPATH value="src;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="src;$(BCB)\lib\obj;$(BCB)\lib"/>
     <WARNINGS value="-w-par"/>
     <OTHERFILES value=""/>
   </MACROS>
@@ -49,12 +49,12 @@
   </LINKER>
   <FILELIST>
       <FILE FILENAME="apera_mar_in.res" FORMNAME="" UNITNAME="apera_mar_in.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="apera_mar_in.cpp" FORMNAME="" UNITNAME="apera_mar_in" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="test_mht.cpp" FORMNAME="window_ami" UNITNAME="test_mht" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="unit_list.cpp" FORMNAME="window_session_list" UNITNAME="unit_list" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="pch.h" FORMNAME="" UNITNAME="pch.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="save_mht.cpp" FORMNAME="" UNITNAME="save_mht" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="session_parser.cpp" FORMNAME="" UNITNAME="session_parser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\apera_mar_in.cpp" FORMNAME="" UNITNAME="apera_mar_in" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\test_mht.cpp" FORMNAME="window_ami" UNITNAME="test_mht" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\unit_list.cpp" FORMNAME="window_session_list" UNITNAME="unit_list" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\pch.h" FORMNAME="" UNITNAME="pch.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\save_mht.cpp" FORMNAME="" UNITNAME="save_mht" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\session_parser.cpp" FORMNAME="" UNITNAME="session_parser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>
