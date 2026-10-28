@@ -4,7 +4,7 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="apera_mar_in.exe"/>
-    <OBJFILES value="apera_mar_in.obj test_mht.obj unit_list.obj save_mht.obj"/>
+    <OBJFILES value="apera_mar_in.obj test_mht.obj unit_list.obj save_mht.obj session_parser.obj"/>
     <RESFILES value="apera_mar_in.res"/>
     <DEFFILE value=""/>
     <RESDEPEN value="$(RESFILES) test_mht.dfm unit_list.dfm"/>
@@ -54,6 +54,7 @@
       <FILE FILENAME="unit_list.cpp" FORMNAME="window_session_list" UNITNAME="unit_list" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="pch.h" FORMNAME="" UNITNAME="pch.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="save_mht.cpp" FORMNAME="" UNITNAME="save_mht" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="session_parser.cpp" FORMNAME="" UNITNAME="session_parser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>

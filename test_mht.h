@@ -23,18 +23,16 @@ __published:
         TLabel *txt_info2;
         TEdit *edit_out_directory;
         TButton *btn_sel_out_directory;
-        TCheckBox *checkbox_use_wand;
         TPopupMenu *context_menu;
         TMenuItem *menu_greetings;
-    
+
     void __fastcall menu_greetingsClick(TObject *Sender);
     void __fastcall btn_sel_out_directoryClick(TObject *Sender);
     void __fastcall btn_analyseClick(TObject *Sender);
     void __fastcall FormKeyPress(TObject *Sender, char &Key);
     void __fastcall btn_sel_directoryClick(TObject *Sender);
     void __fastcall FormCreate(TObject *Sender);
-    void __fastcall btn_call_using_threadClick(TObject *Sender);
-    
+
 private:
     // Private declarations
 public:
