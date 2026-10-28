@@ -171,7 +171,6 @@ object window_ami: Twindow_ami
     Height = 21
     ItemHeight = 13
     TabOrder = 2
-    Text = 'combobox_opera_directory'
   end
   object checkbox_get_all_history: TCheckBox
     Left = 45
@@ -189,7 +188,6 @@ object window_ami: Twindow_ami
     Width = 271
     Height = 21
     TabOrder = 4
-    Text = 'C:\Windows\Temp'
   end
   object btn_sel_out_directory: TButton
     Left = 321
@@ -199,15 +197,6 @@ object window_ami: Twindow_ami
     Caption = '. . .'
     TabOrder = 5
     OnClick = btn_sel_out_directoryClick
-  end
-  object checkbox_use_wand: TCheckBox
-    Left = 42
-    Top = 237
-    Width = 319
-    Height = 17
-    Caption = ' '#1048#1089#1087#1086#1083#1100#1079#1086#1074#1072#1090#1100' '#1087#1072#1088#1086#1083#1080' '#1076#1083#1103' '#1076#1086#1089#1090#1091#1087#1072' '#1082' '#1079#1072#1082#1088#1099#1090#1099#1084' '#1088#1077#1089#1091#1088#1089#1072#1084' '
-    Enabled = False
-    TabOrder = 6
   end
   object context_menu: TPopupMenu
     Left = 330
